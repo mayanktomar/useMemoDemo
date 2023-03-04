@@ -10,6 +10,7 @@ export default function Display(props) {
 
     console.log("Branch name change in Display");
     console.log("Yogilesh changes");
+    console.log("Asif changes in Display js");
   }, [props.getNumbers])
   
 
