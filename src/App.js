@@ -6,6 +6,7 @@ import Display from './Display';
 
 const tripleNumber = (num) => {
   console.log("Change in App file");
+  console.log("Second change");
   for (let i=0;i<=1999999999;i++) {
 
   }
