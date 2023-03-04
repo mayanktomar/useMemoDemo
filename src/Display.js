@@ -6,6 +6,7 @@ export default function Display(props) {
   useEffect(() => {
     setNumbers(props.getNumbers()); 
     console.log("Inside useEffect of Display");
+    console.log("Change in Display.js");
   }, [props.getNumbers])
   
 
