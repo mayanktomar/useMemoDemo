@@ -9,6 +9,7 @@ export default function Display(props) {
     console.log("Change in Display.js");
 
     console.log("Branch name change in Display");
+    console.log("Asif changes in Display js");
   }, [props.getNumbers])
   
 
