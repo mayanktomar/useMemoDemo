@@ -7,6 +7,8 @@ export default function Display(props) {
     setNumbers(props.getNumbers()); 
     console.log("Inside useEffect of Display");
     console.log("Change in Display.js");
+
+    console.log("Branch name change in Display");
   }, [props.getNumbers])
   
 
